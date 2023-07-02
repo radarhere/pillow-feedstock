@@ -9,8 +9,6 @@ source:
   sha256: 535d17e830427bec163027114ded1def9ab0350c99bf1d8cb10535032967f3a5
   patches:
     - patches/0001-Build-without-USE_WIN32_FILEIO.patch
-    # fix provided by upstream maintainer for failing test
-    - patches/0002-Added-patch-to-fix-failing-Windows-test.patch
     # windows needs help detecting webpmux & xcb
     - patches/0003-add-WEBP_ROOT-XCB_ROOT.patch
 
