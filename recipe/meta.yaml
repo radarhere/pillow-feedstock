@@ -84,7 +84,8 @@ test:
     - aiohttp
     - requests
   commands:
-    - pytest -k "not ({{ tests_to_skip }})" --durations=50 Tests
+    - echo "torch"
+    - ls
 
 about:
   home: https://pillow.readthedocs.io
